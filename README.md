@@ -1,6 +1,6 @@
 # Desafio criptonomia
 
-📜 Cenário 1 - Front end
+## 📜 Cenário 1 - Front end
 
 A equipe recebeu uma demanda para desenvolver um front-end para uma API RESTful. No cenário proposto, a interface deve exibir posts de um blog e, ao clicar em um post, os comentários associados.
 
@@ -39,7 +39,7 @@ Os seguintes itens serão utilizados para avaliação técnica da demanda:
 7. Uso de tecnologias/frameworks de mercado.
 
 
-## Informações Adicionais
+## 🗃 Informações Adicionais
 
 1. Você deverá utilizar o GitHub como repositório para seu código. Nenhum código armazenado no computador local será utilizado para avaliação.
 
