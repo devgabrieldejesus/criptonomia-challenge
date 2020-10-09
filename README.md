@@ -1,6 +1,6 @@
 # Desafio criptonomia
 
-## 📜 Cenário 1 - Front end
+## 📜 Cenário 1 - Frontend
 
 A equipe recebeu uma demanda para desenvolver um front-end para uma API RESTful. No cenário proposto, a interface deve exibir posts de um blog e, ao clicar em um post, os comentários associados.
 
@@ -20,7 +20,7 @@ Listagem de usuários:
 Detalhes de um usuário:
 - https://jsonplaceholder.typicode.com/users/[ID]
 
-## 🗳 Avaliação técnica da demanada
+## 🗳 Avaliação técnica da demanda
 
 Os seguintes itens serão utilizados para avaliação técnica da demanda:
 
@@ -45,6 +45,6 @@ Os seguintes itens serão utilizados para avaliação técnica da demanda:
 
     1. O tempo gasto para concluir a atividade será a diferença entre a criação do repositório e o último commit.
 
-2. Ao finalizar o teste envie um e-mail para gleisson@criptonomia.com com a URL do repositório da solução.
+2. Ao finalizar o teste envie um e-mail para `...` com a URL do repositório da solução.
 
 3. Esteja livre para realizar pesquisas na internet, entretanto caso você não tenha familiaridade com algo requerido no teste não gaste tempo com a atividade.
