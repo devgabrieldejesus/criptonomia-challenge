@@ -79,6 +79,6 @@ https://reactrouter.com/web/guides/quick-start
 1. Fazer com que a interface exiba ao clicar em um post, os comentários associados sejam carregados.
 
 
-## 💡 O que ue pretendo fazer com os desafios propostos que eu não consegui resolver
+## 💡 O que eu pretendo fazer com os desafios propostos que eu não consegui resolver
 
 Pretendo estudar e praticar até que eu consiga solucionar todas as atividades propostas
