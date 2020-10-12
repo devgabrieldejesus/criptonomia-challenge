@@ -53,6 +53,8 @@ Os seguintes itens serão utilizados para avaliação técnica da demanda:
 
 ## 🛠 Instalação
 
+Para executar o projeto é necessário ter o [Nodejs](https://nodejs.org/en/download/) instalado.
+
 Axios:
 
 ```sh
