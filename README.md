@@ -49,52 +49,34 @@ Os seguintes itens serão utilizados para avaliação técnica da demanda:
 
 3. Esteja livre para realizar pesquisas na internet, entretanto caso você não tenha familiaridade com algo requerido no teste não gaste tempo com a atividade.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Minha solução
 
-## 📜 Instalação
+## 🛠 Instalação
 
-texto
+Axios:
 
-## 📋 Minha tarefa
+```sh
+npm install axios
+```
 
-Detalhes de um usuário:
-- https://jsonplaceholder.typicode.com/users/[ID]
+React router:
 
-## 🗳 Coisas que eu não consegui fazer
+```sh
+npm install npm install react-router-dom
+```
 
-Os seguintes itens serão utilizados para avaliação técnica da demanda:
+Links:
 
-1. Funcionamento da solução.
+https://www.npmjs.com/package/axios
 
-2. Organização do código (tipos de projetos, diretórios, nome dos arquivos, etc...).
-
-
-
-
-
+https://reactrouter.com/web/guides/quick-start
 
 
+## ⚠️ Coisas que eu não consegui fazer a tempo
+
+1. Fazer com que a interface exiba ao clicar em um post, os comentários associados sejam carregados.
 
 
+## 💡 O que ue pretendo fazer com os desafios propostos que eu não consegui resolver
 
-
+Pretendo estudar e praticar até que eu consiga solucionar todas as atividades propostas
