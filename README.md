@@ -48,3 +48,53 @@ Os seguintes itens serão utilizados para avaliação técnica da demanda:
 2. Ao finalizar o teste envie um e-mail para `...` com a URL do repositório da solução.
 
 3. Esteja livre para realizar pesquisas na internet, entretanto caso você não tenha familiaridade com algo requerido no teste não gaste tempo com a atividade.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Minha solução
+
+## 📜 Instalação
+
+texto
+
+## 📋 Minha tarefa
+
+Detalhes de um usuário:
+- https://jsonplaceholder.typicode.com/users/[ID]
+
+## 🗳 Coisas que eu não consegui fazer
+
+Os seguintes itens serão utilizados para avaliação técnica da demanda:
+
+1. Funcionamento da solução.
+
+2. Organização do código (tipos de projetos, diretórios, nome dos arquivos, etc...).
+
+
+
+
+
+
+
+
+
+
+

@@ -1,44 +1,42 @@
 import React from 'react';
+import './users.css';
 import '../App.css';
-import './posts.css';
 
 const Users = ({ users }) => {
 	return (
-		<div>
-			{users.map((user) => (
-				<div key={user.id} className="user" >
-					<div className="user-body">
-							<div className="user-name">{user.name}</div>
-
-							<div className="user-username">{user.username}</div>
-
-							<div className="user-email">{user.email}</div>
-
-							<div className="user-address">
-								<span>{user.address.street}</span>
-								<span>{user.address.suite}</span>
-								<span>{user.address.zipcode}</span>
-
-								<div className="user-address--geo">
-									<span>{user.address.geo.lat}</span>
-									<span>{user.address.geo.lng}</span>
+		<section>
+			<div className="container column">
+				<h1>Usuários</h1>
+				<div className="user-container">
+				{users.map((user) => (
+					<div className="user" >
+						<div className="user-body column">
+								<div className="user-name">{user.name}</div>
+								<div className="user-username"><strong>Usuário:</strong> {user.username}</div>
+								<div className="user-email"><strong>Email:</strong> {user.email}</div>
+								<div className="user-address">
+									<strong>Endereço: </strong>
+									{user.address.street}
+									{user.address.suite}
+									{user.address.city}
+									{user.address.zipcode}
+									{user.address.geo.lat}
+									{user.address.geo.lng}
 								</div>
-							</div>
-
-							<div className="user-phone">{user.phone}</div>
-
-							<div className="user-website">{user.website}</div>
-
-							<div className="user-company">
-								<span>{user.company.name}</span>
-								<span>{user.company.catchPhrase}</span>
-								<span>{user.company.bs}</span>
-							</div>
-
+								<div className="user-phone"><strong>Telefone: </strong>{user.phone}</div>
+								<div className="user-website"><strong>Website: </strong> {user.website}</div>
+								<div className="user-company"><strong>Companhia: </strong>
+									{user.company.name}
+									{user.company.catchPhrase}
+									{user.company.bs}
+								</div>
+						</div>
 					</div>
+				))}
 				</div>
-			))}
-		</div>
+
+			</div>
+		</section>
 	)
 };
 

@@ -3,6 +3,194 @@
 * {
     margin: 0;
     padding: 0;
+    outline: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+:hover {
+    transition: all ease 0.3s;
+}
+
+:root {
+    --black: #2A2B30;
+    --red: #BE1C2A;
+    --text: #555;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: var(--black);
+    margin: 30px 0px 10px 0px;
+}
+
+p {
+    max-width: 700px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text);
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+strong {
+    color: var(--black);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 1208px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    font-size: 18px;
+    margin-left: 30px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #FFF;
+}
+
+nav li:hover {
+    border-bottom: 2px solid var(--black);
+}
+
+nav li:first-child {
+    margin-left: 0px;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    background-color: #F4F4F8;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    background-color: #FFF;
+}
+
+.banner-options {
+    display: flex;
+    margin-top: 30px;
+}
+
+.banner-options--blog,
+.banner-options--users {
+    width: 150px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--red);
+}
+
+.banner-options--blog:hover,
+.banner-options--users:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.banner-options--users {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black);
+    margin-left: 30px;
+    background-color: #FFF;
+    border: 2px solid #EEE;
+}
+
+@media (max-width:1208px) {
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .banner-left {
+        text-align: center;
+    }
+
+    .banner-options {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:780px) {
+    header {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    header .logo {
+        margin-bottom: 5px;
+    }
+
+    header .container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:388px) {
+    nav li {
+        font-size: 16px;
+    }
+
+    .banner-options--users {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:346px) {
+    nav ul {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0;
+    }
 }

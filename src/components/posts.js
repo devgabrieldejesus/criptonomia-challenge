@@ -1,23 +1,22 @@
 import React from 'react';
-import '../App.css';
 import './posts.css';
+import '../App.css';
 
 const Posts = ({ posts }) => {
 	return (
-	<div>
+	<section>
+		<div className="container column">
+		<h1>Posts</h1>
 		{posts.map((post) => (
-
-			<div key={post.id} className="post">
-
+			<div className="post column">
 				<div className="post-body">
-					<h1>{post.title}</h1>
+					<div className="post-title">{post.title}</div>
 					<p>{post.body}</p>
 				</div>
-
 			</div>
-
 		))}
-	</div>
+		</div>
+	</section>
 	)
 };
 
