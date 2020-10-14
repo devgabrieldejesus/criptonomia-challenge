@@ -51,6 +51,9 @@ Os seguintes itens serão utilizados para avaliação técnica da demanda:
 
 # Minha solução
 
+`Web preview`
+![](public/images/web-preview.gif)
+
 ## 🛠 Instalação
 
 Para executar o projeto é necessário ter o [Nodejs](https://nodejs.org/en/download/) instalado.
