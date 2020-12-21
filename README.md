@@ -43,11 +43,13 @@ Os seguintes itens serão utilizados para avaliação técnica da demanda:
 
 1. Você deverá utilizar o GitHub como repositório para seu código. Nenhum código armazenado no computador local será utilizado para avaliação.
 
-    1. O tempo gasto para concluir a atividade será a diferença entre a criação do repositório e o último commit.
+2. O tempo gasto para concluir a atividade será a diferença entre a criação do repositório e o último commit.
 
-2. Ao finalizar o teste envie um e-mail para `...` com a URL do repositório da solução.
+3. Ao finalizar o teste envie um e-mail para `...` com a URL do repositório da solução.
 
-3. Esteja livre para realizar pesquisas na internet, entretanto caso você não tenha familiaridade com algo requerido no teste não gaste tempo com a atividade.
+4. Esteja livre para realizar pesquisas na internet, entretanto caso você não tenha familiaridade com algo requerido no teste não gaste tempo com a atividade.
+
+---
 
 # Minha solução
 
@@ -77,11 +79,11 @@ https://www.npmjs.com/package/axios
 https://reactrouter.com/web/guides/quick-start
 
 
-## ⚠️ Coisas que eu não consegui fazer a tempo
+## ⚠️ Coisas que não consegui fazer a tempo
 
 1. Fazer com que a interface exiba ao clicar em um post, os comentários associados sejam carregados.
 
 
-## 💡 O que eu pretendo fazer com os desafios propostos que eu não consegui resolver
+## 💡 O que pretendo fazer com os desafios propostos que eu não consegui resolver
 
 Pretendo estudar e praticar até que eu consiga solucionar todas as atividades propostas
